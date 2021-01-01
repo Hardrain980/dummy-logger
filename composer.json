@@ -1,0 +1,14 @@
+{
+    "name": "ringa/dummy-logger",
+    "description": "A dummy PSR-3 logger for performing unit-tests.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "psr/log": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leo\\Fixtures\\": "src/"
+        }
+    }
+}
